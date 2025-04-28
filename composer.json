@@ -13,7 +13,7 @@
         "laravel/framework": "^10.0|^11.0|^12.0",
         "laravel/nova": "^5.0",
         "spatie/ssl-certificate": "^2.0",
-        "stepanenko3/laravel-system-resources": "^1.1.1",
+        "stepanenko3/laravel-system-resources": "dev-main",
         "stepanenko3/laravel-helpers": "^1.3.2"
     },
     "autoload": {
@@ -37,6 +37,10 @@
         {
             "type": "composer",
             "url": "https://laravelsatis.com"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/stepanenko3/laravel-system-resources.git"
         }
     ],
     "require-dev": {
